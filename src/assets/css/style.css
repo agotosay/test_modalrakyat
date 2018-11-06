@@ -1,0 +1,286 @@
+.header-top {
+    background-color: #2D3E49;
+}
+.uk-navbar-nav .is-active {
+    border-bottom: 1px solid #fff;
+}
+.uk-navbar-nav .is-active a {
+    color: #fff;
+}
+.text-white {
+    color: #fff
+}
+.text-gold {
+    color: goldenrod
+}
+.relative {
+    position: relative;
+}
+.account {
+    background-color: #2D3E49;
+    height: 80px;
+}
+.no-padding {
+    padding: 0 !important
+}
+.pic-account img {
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    top: 48px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid #fff
+}
+.ml0h {
+    margin-left: .5rem;
+}
+.mt0 {
+    margin-top: 0;
+}
+.pb2 {
+    padding-bottom: 2rem;
+}
+.mb0 {
+    margin-bottom: 0;
+}
+.mt0h {
+    margin-top: .5rem;
+}
+.mb0h {
+    margin-bottom: .5rem;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mb20 {
+    margin-bottom: 20px !important;
+}
+.block {
+    display: block;
+}
+.pointer {
+    cursor: pointer;
+}
+.account-desc {
+    margin-top: 50px
+}
+.badge {
+    background-color: red;
+}
+.account-desc:after {
+    border-bottom: 1px solid #bdbdbd;
+    content: '';
+    display: block;
+}
+.text-blue {
+    color: rgb(37, 90, 238) !important;
+}
+.account-info {
+    margin-top: 20px;
+}
+.account-info:after {
+    border-bottom: 1px solid #bdbdbd;
+    content: '';
+    display: block;
+    width: 90%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.account-info + .account-info {
+    margin-top: 40px;
+}
+.account-add {
+    margin-top: 40px;
+}
+.premium {
+    position: relative;
+}
+.premium:before {
+    content: '';
+    background-color: gold;
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.is-fullwidth {
+    width: 100%
+}
+.search:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #bdbdbd;
+
+}
+.uk-label.outline {
+    background-color: transparent;
+    color: #333;
+    display: inline-flex;
+    padding: .5rem 1rem;
+    border: 1px solid #bdbdbd;
+    border-radius: 20px;
+    font-size: .6rem;
+    margin-top: 10px;
+}
+.uk-label.no-outline {
+    background-color: transparent;
+    color: #333;
+    display: inline-flex;
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: 20px;
+    font-size: .6rem;
+    margin-top: 10px;
+}
+.uk-label.outline svg {
+    width: 15px
+}
+.uk-badge.custom {
+    position: absolute;
+    font-size: .65rem;
+    min-width: 15px;
+    height: 15px;
+    right: -9px;
+    z-index: 9;
+    background: red;
+    top: -5px;
+}
+.divider {
+    position: relative;
+}
+.divider:before {
+    content: '';
+    border-bottom: 1px solid #bdbdbd;
+    position: absolute;
+    top: calc(50% - (1px / 2));
+    left: 0;
+    width: calc(100% - 125px);
+}
+.account-search img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover
+}
+.account-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover
+}
+.account-title .name {
+    font-size: 1rem
+}
+.account-title .job {
+    font-size: .8rem
+}
+.flex {
+    display: flex;
+}
+.flex-center {
+    display: flex;
+    align-items: center
+}
+.text-black {
+    color: #333
+}
+.online {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 28px;
+    border: 2px solid #fff;
+}
+.card-article {
+    border: 1px solid #bdbdbd;
+}
+.pad1 {
+    padding: 1rem
+}
+.mb2 {
+    margin-bottom: 2rem;
+}
+.mt1 {
+    margin-top: 1rem;
+}
+.uk-card-body {
+    padding: 1rem;
+}
+.pl0 {
+    padding-left: 0 !important
+}
+.btn-follow {
+    padding: 0 10px !important;
+    font-size: .8rem
+}
+.search-detail {
+    background-color: #fff;
+    position: absolute;
+    padding: 1rem;
+    width: 500px;
+    left: 15px;
+    top: 65px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    z-index: 9;
+}
+.list-search + .list-search {
+    margin-top: 10px;
+}
+.none {
+    display: none
+}
+.mt60 {
+    margin-top: 60px;
+}
+body {
+    background-color: #fafafa;
+}
+.back-white {
+    background-color: #fff !important
+}
+.back-profile {
+    background-color: #45aaf1;
+    height: 180px;
+    position: relative;
+}
+.pic-profile img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    left: 50px;
+    top: 65%;
+    border: 4px solid #fff;
+}
+.content-profile {
+    padding: 1rem
+}
+.position-title:before {
+    width: 10px;
+    height: 10px;
+    content: '';
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    left: -13px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.position-title {
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    margin-left: 18px
+}
